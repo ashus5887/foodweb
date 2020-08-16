@@ -1,0 +1,27 @@
+section.Input.fadeInUp
+  h2 Sign Up Page
+  .container__parent
+    video.bg-video__content(autoplay='' muted='' loop='')
+      source(src='Avocado.mp4' type='video/mp4')
+      |         Your browser is not supported
+    form.signUp
+      .entry
+          .entry-text
+            | Name
+          input(type='text' placeholder='Your Name')
+      .entry
+        .entry-text
+          | Email
+        input(type='email' name='email' placeholder='Your Email')
+      .entry
+        .entry-text
+          | Password
+        input(type = 'password' name='' placeholder='********')
+      .entry
+        .entry-text
+          | Confirm Password
+        input(type = 'password' name='' placeholder='********')
+      
+      .btn-parent
+        button.btn.btn-full.form-button(type = 'submit') Sign Up
+        //- submit is added so that it is used as an event in login.js

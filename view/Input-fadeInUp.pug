@@ -1,0 +1,35 @@
+section.Input.fadeInUp
+  h2 CONTACT US
+  .container__parent
+    video.bg-video__content(autoplay='' muted='' loop='')
+      source(src='Avocado.mp4' type='video/mp4')
+      |         Your browser is not supported
+    form
+      .entry
+        .entry-text
+          | Name
+        input(type='text' name='Name' placeholder='Your Name' required='')
+      .entry
+        .entry-text
+          | Email
+        input(type='email' name='email' placeholder='Your Email')
+      .entry
+        .entry-text
+          | How did you find us
+        select(name='' id='')
+          option(value='')
+            | friends
+          option(value='') search
+          option(value='') advertsiment
+          option(value='') other
+      .entry
+        .entry-text
+          | Drop us a line
+        textarea(name='' id='' placeholder='Your Message')
+      .entry
+        input.checkbox(type='checkbox' name='email')
+        span.checkbox-conditions
+          | I have read and agree with all the Privacy Policy and
+          | Terms Conditions
+      .btn-parent
+        a.btn.btn-full.form-button(href='#') SEND MESSAGE

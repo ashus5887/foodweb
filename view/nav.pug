@@ -1,0 +1,18 @@
+nav 
+    ul.navigation
+        li.nav-line
+            a(class="white-anchors" href="/")="FEATURES"
+        li.nav-line
+            a(class="white-anchors" href="#comment-parentId")="REVIEWS"
+        li.nav-line
+            a(class="white-anchors" href="/plans")="PLANS"
+        if !user    
+            li.nav-line
+                a(class="white-anchors" href="/signup")="SIGN UP"
+            li.nav-line
+                a(class="white-anchors" href="/login")="LOGIN"
+        else
+            li.nav-line
+                a(class="white-anchors" href="/logout")="LOGOUT"  
+            a(href="/me")
+                img.customer-img(src='/img/customer.jpg' alt='')      

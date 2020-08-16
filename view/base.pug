@@ -1,0 +1,21 @@
+doctype  html
+//-Note that this is all reference to the public folder and not view folder
+html
+    head 
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css"> 
+        <link rel="stylesheet" href="">
+    body
+        block header 
+            include nav
+        block main    
+        include footer
+        script(src="https://js.stripe.com/v3/")
+        script(src='./js//script.js')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js')
+        //- for using axios in login.js ->we get the axios variable via this link
+        script(src='./js//frontend.js')
+        //- this file has access to the axios, thus to be defined after the above axios link 
+        script(src='./js//signup.js')
+

@@ -1,0 +1,27 @@
+include nav
+header  
+  include showcase
+section.signup
+  h2 MY PROFILE 
+  .signup-parent
+    .signup-child
+    .signup-child
+      .signup-header
+        h3 
+        .signup-pricing
+          span.pricing Details
+      .signup-features
+        ul
+          li
+            i.fas.fa-check.small-icon  
+            | Name: #{user.name}
+          li
+            i.fas.fa-check.small-icon  
+            | Email: #{user.email}
+        .signup-button
+          a.btn.btn-full(href='/updateUser') Update Details 
+    .signup-child
+//- include signup
+
+   
+   
