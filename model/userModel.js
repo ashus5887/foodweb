@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 var crypto = require("crypto");
 var validator = require("validator")
 
-const DB = "mongodb+srv://ashus5887:ashusona1@cluster0-azjxq.gcp.mongodb.net/test?retryWrites=true&w=majority";
+const DB = "mongodb+srv://ashus5887:****ChangesRequired****@cluster0-azjxq.gcp.mongodb.net/test?retryWrites=true&w=majority";
 
 try{
     mongoose
