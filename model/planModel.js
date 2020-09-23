@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 
 // const DB = 
-//     "mongodb+srv://ashus5887:ashusona1@cluster0-azjxq.gcp.mongodb.net/test?retryWrites=true&w=majority"
+//     "mongodb+srv://ashus5887:****CHangesRequired@cluster0-azjxq.gcp.mongodb.net/test?retryWrites=true&w=majority"
     //this link is given when we form the cluster on mongoDB site    
 
     const DB = 
-    "mongodb+srv://ashus5887:ashusona1@cluster0-azjxq.gcp.mongodb.net/test?retryWrites=true&w=majority"
+    "mongodb+srv://ashus5887:****CHangedRequired****@cluster0-azjxq.gcp.mongodb.net/test?retryWrites=true&w=majority"
     try{
         mongoose
         .connect(DB, {useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology:true}) // second argument passed so that there are no deprecation warnings
