@@ -45,7 +45,10 @@ Replace package.json with the following file:<br>
     "nodemon": "^1.19.4"<br>
   }<br>
 }<br>
-<br>
+<br><br>
+
+Enter DB details in userModel.js and planModel.js<br>
+Add Stripe sk_key<br>
 Run the following on the command prompt in the same directory:<br>
 -> npm start<br>
 Server will listen on port localhost:3000<br>
