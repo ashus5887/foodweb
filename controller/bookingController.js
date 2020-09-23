@@ -1,5 +1,5 @@
 const planModel = require("../model/planModel");
-const stripe = require("stripe")("sk_test_XPBXLR9uYkt126juUygoeJxa00L03GE4zX")
+const stripe = require("stripe")("**deletethisstar**sk_test_XPBXLR9uYkt126juUygoeJxa00L03GE4zX")
 
 module.exports.checkout = async function (req, res) {
     try {
