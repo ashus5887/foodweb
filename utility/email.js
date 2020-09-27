@@ -31,7 +31,7 @@ module.exports = async function (options) {
             service: "gmail",
             auth: {
                 user: "ashus5887@gmail.com",
-                pass: "sdcbolzpbmaxclbi"
+                pass: "**changesbolzpbmaclbi"
             }
         });
 
